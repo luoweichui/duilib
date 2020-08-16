@@ -1,0 +1,136 @@
+﻿生成启动时间为 2020/8/14 23:00:27。
+     1>项目“D:\360MoveData\Users\1\Desktop\DuiLib\DuiLib.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D UILIB_EXPORTS /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"D:\360MoveData\Users\1\Desktop\DuiLib\Debug\DuiLib_ud.pch" /Fo"D:\360MoveData\Users\1\Desktop\DuiLib\Debug\\" /Fd"D:\360MoveData\Users\1\Desktop\DuiLib\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D UILIB_EXPORTS /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"D:\360MoveData\Users\1\Desktop\DuiLib\Debug\DuiLib_ud.pch" /Fo"D:\360MoveData\Users\1\Desktop\DuiLib\Debug\\" /Fd"D:\360MoveData\Users\1\Desktop\DuiLib\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Control\UICheckBoxEx.cpp Control\UIContainerEx.cpp Control\UIRollText.cpp Control\UIAnimation.cpp Control\UIColorPalette.cpp Control\UIFadeButton.cpp Control\UIGifAnim.cpp Control\UIGifAnimEx.cpp Control\UIGroupBox.cpp Control\UIHotKey.cpp Control\UIIPAddress.cpp Control\UIListEx.cpp Control\UIMenu.cpp Core\ControlFactory.cpp Core\UIResourceManager.cpp Layout\UIAnimationTabLayout.cpp UIlib.cpp Utils\DPI.cpp Utils\DragDropImpl.cpp Utils\TrayIcon.cpp Utils\UIShadow.cpp Utils\WinImplBase.cpp Utils\UIDelegate.cpp Utils\Utils.cpp Core\UIBase.cpp Core\UIContainer.cpp Core\UIControl.cpp Core\UIDlgBuilder.cpp Core\UIManager.cpp Core\UIMarkup.cpp Core\UIRender.cpp Layout\UIChildLayout.cpp Layout\UIHorizontalLayout.cpp Layout\UITabLayout.cpp Layout\UITileLayout.cpp Layout\UIVerticalLayout.cpp Control\UIActiveX.cpp Control\UIButton.cpp Control\UICombo.cpp Control\UIComboBox.cpp Control\UIDateTime.cpp Control\UIEdit.cpp Control\UIFlash.cpp Control\UILabel.cpp Control\UIList.cpp Control\UIOption.cpp Control\UIProgress.cpp Control\UIRichEdit.cpp Control\UIScrollBar.cpp Control\UISlider.cpp Control\UIText.cpp Control\UITreeView.cpp Control\UIWebBrowser.cpp
+         UIWebBrowser.cpp
+         UITreeView.cpp
+         UIText.cpp
+     1>Control\UIText.cpp(129): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+         UISlider.cpp
+         UIScrollBar.cpp
+         UIRichEdit.cpp
+         UIProgress.cpp
+         UIOption.cpp
+         UIList.cpp
+         UILabel.cpp
+         UIFlash.cpp
+         UIEdit.cpp
+         UIDateTime.cpp
+         UIComboBox.cpp
+         UICombo.cpp
+         UIButton.cpp
+         UIActiveX.cpp
+         UIVerticalLayout.cpp
+         UITileLayout.cpp
+         UITabLayout.cpp
+         正在生成代码...
+         正在编译...
+         UIHorizontalLayout.cpp
+         UIChildLayout.cpp
+         UIRender.cpp
+         UIMarkup.cpp
+         UIManager.cpp
+         UIDlgBuilder.cpp
+         UIControl.cpp
+         UIContainer.cpp
+         UIBase.cpp
+         Utils.cpp
+         UIDelegate.cpp
+         WinImplBase.cpp
+         UIShadow.cpp
+         TrayIcon.cpp
+     1>Utils\TrayIcon.cpp(157): warning C4101: “cbSize”: 未引用的局部变量
+     1>Utils\TrayIcon.cpp(160): warning C4101: “guidItem”: 未引用的局部变量
+     1>Utils\TrayIcon.cpp(158): warning C4101: “hWnd”: 未引用的局部变量
+     1>Utils\TrayIcon.cpp(159): warning C4101: “uID”: 未引用的局部变量
+         DragDropImpl.cpp
+         DPI.cpp
+         UIlib.cpp
+         UIAnimationTabLayout.cpp
+         UIResourceManager.cpp
+         ControlFactory.cpp
+         正在生成代码...
+         正在编译...
+         UIMenu.cpp
+         UIListEx.cpp
+     1>Control\UIListEx.cpp(382): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+         UIIPAddress.cpp
+         UIHotKey.cpp
+         UIGroupBox.cpp
+         UIGifAnimEx.cpp
+         UIGifAnim.cpp
+         UIFadeButton.cpp
+         UIColorPalette.cpp
+         UIAnimation.cpp
+         UIRollText.cpp
+         UIContainerEx.cpp
+         UICheckBoxEx.cpp
+         正在生成代码...
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D UILIB_EXPORTS /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\360MoveData\Users\1\Desktop\DuiLib\Debug\\" /Fd"D:\360MoveData\Users\1\Desktop\DuiLib\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Utils\XUnzip.cpp
+         XUnzip.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\Library\DuiLib\lib\32\Debug\DuiLib_ud.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"..\..\Library\DuiLib\lib\32\Debug\DuiLib_ud.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /BASE:"0x11000000" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\Library\DuiLib\lib\32\Debug\DuiLib_ud.lib" /MACHINE:X86 /SAFESEH /DLL D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UICheckBoxEx.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIContainerEx.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIRollText.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIAnimation.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIColorPalette.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIFadeButton.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIGifAnim.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIGifAnimEx.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIGroupBox.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIHotKey.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIIPAddress.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIListEx.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIMenu.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\ControlFactory.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIResourceManager.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIAnimationTabLayout.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\StdAfx.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIlib.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\DPI.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\DragDropImpl.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\TrayIcon.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIShadow.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\WinImplBase.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIDelegate.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\Utils.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\XUnzip.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIBase.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIContainer.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIControl.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIDlgBuilder.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIManager.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIMarkup.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIRender.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIChildLayout.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIHorizontalLayout.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UITabLayout.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UITileLayout.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIVerticalLayout.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIActiveX.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIButton.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UICombo.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIComboBox.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIDateTime.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIEdit.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIFlash.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UILabel.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIList.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIOption.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIProgress.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIRichEdit.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIScrollBar.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UISlider.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIText.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UITreeView.obj
+         D:\360MoveData\Users\1\Desktop\DuiLib\Debug\UIWebBrowser.obj
+            正在创建库 ..\..\Library\DuiLib\lib\32\Debug\DuiLib_ud.lib 和对象 ..\..\Library\DuiLib\lib\32\Debug\DuiLib_ud.exp
+         DuiLib.vcxproj -> D:\360MoveData\Users\1\Desktop\DuiLib\..\..\Library\DuiLib\lib\32\Debug\DuiLib_ud.dll
+     1>已完成生成项目“D:\360MoveData\Users\1\Desktop\DuiLib\DuiLib.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.05

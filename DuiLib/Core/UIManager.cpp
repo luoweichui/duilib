@@ -1203,11 +1203,9 @@ namespace DuiLib {
 		case WM_DISPLAYCHANGE:
 			{
 				if (m_pRoot != NULL){
+					m_bFirstLayout = true;
 					m_pRoot->NeedUpdate();
-					Sleep(10);
-					m_shadow.UpdateNow();
 				}
-
 			}
 			return true;
 		case WM_TIMER:

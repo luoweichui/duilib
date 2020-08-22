@@ -349,27 +349,6 @@ namespace DuiLib {
 		CDuiRect invalidateRc = m_rcItem;
 		if( ::IsRectEmpty(&invalidateRc) ) invalidateRc = rc;
 
-		if( m_bFloat ) {
-			CControlUI* pParent = GetParent();
-			if( pParent != NULL ) {
-				RECT rcParentPos = pParent->GetPos();
-				RECT rcCtrl = {rcParentPos.left + rc.left, rcParentPos.top + rc.top, 
-					rcParentPos.left + rc.right, rcParentPos.top + rc.bottom};
-				m_rcItem = rcCtrl;
-
-				LONG width = rcParentPos.right - rcParentPos.left;
-				LONG height = rcParentPos.bottom - rcParentPos.top;
-				RECT rcPercent = {(LONG)(width*m_piFloatPercent.left), (LONG)(height*m_piFloatPercent.top),
-					(LONG)(width*m_piFloatPercent.right), (LONG)(height*m_piFloatPercent.bottom)};
-				m_cXY.cx = rc.left - rcPercent.left;
-				m_cXY.cy = rc.top - rcPercent.top;
-				m_cxyFixed.cx = rc.right - rcPercent.right - m_cXY.cx;
-				m_cxyFixed.cy = rc.bottom - rcPercent.bottom - m_cXY.cy;
-			}
-		}
-		else {
-			m_rcItem = rc;
-		}
 		m_rcItem = rc;
 		if( m_pManager == NULL ) return;
 

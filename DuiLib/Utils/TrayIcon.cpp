@@ -3,6 +3,8 @@
 
 namespace DuiLib
 {
+	typedef HRESULT(*DLLShellNotifyIconGetRect)(const NOTIFYICONIDENTIFIER *identifier, RECT *iconLocation);
+
 	CTrayIcon::CTrayIcon(void)
 	{
 		memset(&m_trayData, 0, sizeof(m_trayData));
@@ -154,16 +156,23 @@ namespace DuiLib
 
 	bool CTrayIcon::GetIconLocation(RECT& location)
 	{
-		DWORD cbSize;
-		HWND hWnd;
-		UINT uID;
-		GUID guidItem;
+		int ret = S_FALSE;
 		NOTIFYICONIDENTIFIER notifyiconidentifier;
 		notifyiconidentifier.cbSize = sizeof(notifyiconidentifier);
 		notifyiconidentifier.hWnd = m_trayData.hWnd;
 		notifyiconidentifier.uID = m_trayData.uID;
 		notifyiconidentifier.guidItem = GUID_NULL;
-		int ret = Shell_NotifyIconGetRect(&notifyiconidentifier, &location);
+		HINSTANCE hInstLibrary = LoadLibrary(_T("Shell32.dll"));
+		if (hInstLibrary != NULL)
+		{
+			DLLShellNotifyIconGetRect shellNotifyIconGetRect = (DLLShellNotifyIconGetRect)GetProcAddress(hInstLibrary, "Shell_NotifyIconGetRect");
+			if (shellNotifyIconGetRect != NULL)
+			{
+				ret = shellNotifyIconGetRect(&notifyiconidentifier, &location);
+			}
+			FreeLibrary(hInstLibrary);
+		}
+
 		return ret == S_OK;
 	}
 }
